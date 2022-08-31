@@ -17,6 +17,7 @@ pipeline
                 echo "BUILD_NUMBER = ${env.BUILD_NUMBER}"
                 echo "$USER_NAME"
                 echo "$USER_AGE"
+                echo "$USER_LOC"
             }
         }
     }
