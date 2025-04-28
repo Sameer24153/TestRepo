@@ -2,3 +2,4 @@ This is first file
 this is added to test merging between two branches
 this is third line
 I'm making a new commit
+I'm adding another line - this will be reverted
