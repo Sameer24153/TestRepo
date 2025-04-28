@@ -2,3 +2,5 @@ This is first file
 this is added to test merging between two branches
 this is third line
 I'm making a new commit
+
+I'm proposing a new change in mynewbranch2 by raising a PR from mysubbranch-feature
