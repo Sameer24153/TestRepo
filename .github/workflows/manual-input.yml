@@ -1,0 +1,17 @@
+# .github/workflows/manual-input.yml
+name: Manual Input Workflow
+
+on:
+  workflow_dispatch:
+    inputs:
+      user_input:
+        description: 'Input from the user'
+        required: true
+        default: 'Default value'
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print User Input
+        run: echo "User input:${{ github.event.inputs.user_input }}"
