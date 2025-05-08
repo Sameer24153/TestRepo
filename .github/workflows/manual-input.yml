@@ -1,5 +1,5 @@
 # .github/workflows/manual-input.yml
-name: Manual Input Workflow
+name: Manual Input Workflow - Main
 
 on:
   workflow_dispatch:
