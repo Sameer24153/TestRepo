@@ -3,11 +3,11 @@ name: Manual Input Workflow - Main
 
 on:
   workflow_dispatch:
-    #inputs:
-      #user_input:
-        #description: 'Input from the user'
-        #required: true
-        #default: 'Default value'
+    inputs:
+      user_input:
+        description: 'Input from the user'
+        required: true
+        default: 'Default value'
 
 jobs:
   run:
