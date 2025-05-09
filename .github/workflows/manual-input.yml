@@ -2,10 +2,7 @@
 name: Manual Input Workflow - Main
 
 on:
-  push:
-    branches:
-      - main
-  #workflow_dispatch:
+  workflow_dispatch:
     #inputs:
       #user_input:
         #description: 'Input from the user'
@@ -17,5 +14,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Print User Input
-        run: echo "This was run on push trigger to main branch"
+        run: echo "This was run manually"
         #run: echo "User input:${{ github.event.inputs.user_input }}"
